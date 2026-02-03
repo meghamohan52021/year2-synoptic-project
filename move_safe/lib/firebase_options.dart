@@ -43,52 +43,52 @@ class DefaultFirebaseOptions {
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: ///Enter key,
     appId: ///Enter ID,
-    messagingSenderId: '721921639359',
-    projectId: 'ms-test-6358d',
-    authDomain: 'ms-test-6358d.firebaseapp.com',
-    databaseURL: 'https://ms-test-6358d-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'ms-test-6358d.firebasestorage.app',
-    measurementId: 'G-696G2FSLTX',
+    messagingSenderId: ///Enter value,
+    projectId: ///Enter value,
+    authDomain: ///Enter value,
+    databaseURL: ///Enter value,
+    storageBucket:///Enter value,
+    measurementId: ///Enter value,
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: ///Enter key,
     appId: ///Enter ID,
-    messagingSenderId: '721921639359',
-    projectId: 'ms-test-6358d',
-    databaseURL: 'https://ms-test-6358d-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'ms-test-6358d.firebasestorage.app',
+    messagingSenderId:///Enter value,
+    projectId: ///Enter value,
+    databaseURL: ///Enter value,
+    storageBucket:///Enter value,
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: ///Enter key,
     appId: ///Enter ID,
-    messagingSenderId: '721921639359',
-    projectId: 'ms-test-6358d',
-    databaseURL: 'https://ms-test-6358d-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'ms-test-6358d.firebasestorage.app',
-    iosBundleId: 'com.example.moveSafe',
+    messagingSenderId: ///Enter value,
+    projectId: ///Enter value,
+    databaseURL:///Enter value,
+    storageBucket: ///Enter value,
+    iosBundleId: ///Enter value,
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: ///Enter key,
     appId: ///Enter ID,
-    messagingSenderId: '721921639359',
-    projectId: 'ms-test-6358d',
-    databaseURL: 'https://ms-test-6358d-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'ms-test-6358d.firebasestorage.app',
-    iosBundleId: 'com.example.moveSafe',
+    messagingSenderId:///Enter value,
+    projectId: ///Enter value,
+    databaseURL: ///Enter value,
+    storageBucket: ///Enter value,
+    iosBundleId: ///Enter value,
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
     apiKey: ///Enter key,
     appId: ///Enter ID,
-    messagingSenderId: '721921639359',
-    projectId: 'ms-test-6358d',
-    authDomain: 'ms-test-6358d.firebaseapp.com',
-    databaseURL: 'https://ms-test-6358d-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'ms-test-6358d.firebasestorage.app',
-    measurementId: 'G-0TMHX4NYSE',
+    messagingSenderId: ///Enter value,
+    projectId: ///Enter value,
+    authDomain: ///Enter value,
+    databaseURL: ///Enter value,
+    storageBucket:///Enter value,
+    measurementId: ///Enter value,
   );
 
 }
