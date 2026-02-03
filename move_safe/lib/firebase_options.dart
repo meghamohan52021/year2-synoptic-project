@@ -41,8 +41,8 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBbyG7nrmqDAwmGcCsZEzUxQ9NDp8ynuOA',
-    appId: '1:721921639359:web:0eb66527749669eb0f570a',
+    apiKey: ///Enter key,
+    appId: ///Enter ID,
     messagingSenderId: '721921639359',
     projectId: 'ms-test-6358d',
     authDomain: 'ms-test-6358d.firebaseapp.com',
@@ -52,8 +52,8 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCM3YW3xI2w-5a6AFEX9vU6TxLqrcMkoe0',
-    appId: '1:721921639359:android:1296183f92498e390f570a',
+    apiKey: ///Enter key,
+    appId: ///Enter ID,
     messagingSenderId: '721921639359',
     projectId: 'ms-test-6358d',
     databaseURL: 'https://ms-test-6358d-default-rtdb.europe-west1.firebasedatabase.app',
@@ -61,8 +61,8 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDFDOwhUrxcXaMnBZcvt0dnXPiMkV0qk0k',
-    appId: '1:721921639359:ios:e4e68c6d94ee25d10f570a',
+    apiKey: ///Enter key,
+    appId: ///Enter ID,
     messagingSenderId: '721921639359',
     projectId: 'ms-test-6358d',
     databaseURL: 'https://ms-test-6358d-default-rtdb.europe-west1.firebasedatabase.app',
@@ -71,8 +71,8 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDFDOwhUrxcXaMnBZcvt0dnXPiMkV0qk0k',
-    appId: '1:721921639359:ios:e4e68c6d94ee25d10f570a',
+    apiKey: ///Enter key,
+    appId: ///Enter ID,
     messagingSenderId: '721921639359',
     projectId: 'ms-test-6358d',
     databaseURL: 'https://ms-test-6358d-default-rtdb.europe-west1.firebasedatabase.app',
@@ -81,8 +81,8 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBbyG7nrmqDAwmGcCsZEzUxQ9NDp8ynuOA',
-    appId: '1:721921639359:web:5c003357c6c104410f570a',
+    apiKey: ///Enter key,
+    appId: ///Enter ID,
     messagingSenderId: '721921639359',
     projectId: 'ms-test-6358d',
     authDomain: 'ms-test-6358d.firebaseapp.com',
