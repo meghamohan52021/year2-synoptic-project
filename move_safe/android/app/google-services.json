@@ -1,14 +1,14 @@
 {
   "project_info": {
-    "project_number": "721921639359",
-    "firebase_url": "https://ms-test-6358d-default-rtdb.europe-west1.firebasedatabase.app",
-    "project_id": "ms-test-6358d",
-    "storage_bucket": "ms-test-6358d.firebasestorage.app"
+    "project_number": ///Enter value,
+    "firebase_url": ///Enter value,
+    "project_id": ///Enter value,
+    "storage_bucket": ///Enter value"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:721921639359:android:3f7a8322e90e12280f570a",
+        "mobilesdk_app_id": ///Enter value,
         "android_client_info": {
           "package_name": "com.example.flutter_application_1"
         }
@@ -16,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCM3YW3xI2w-5a6AFEX9vU6TxLqrcMkoe0"
+          "current_key": ///Enter value
         }
       ],
       "services": {
@@ -27,7 +27,7 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:721921639359:android:1296183f92498e390f570a",
+        "mobilesdk_app_id":///Enter value,
         "android_client_info": {
           "package_name": "com.example.move_safe"
         }
@@ -35,7 +35,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCM3YW3xI2w-5a6AFEX9vU6TxLqrcMkoe0"
+          "current_key": ///Enter value
         }
       ],
       "services": {
@@ -46,7 +46,7 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:721921639359:android:0eeee32595ad09420f570a",
+        "mobilesdk_app_id": ///Enter value,
         "android_client_info": {
           "package_name": "com.mycompany.movesafe"
         }
@@ -54,7 +54,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCM3YW3xI2w-5a6AFEX9vU6TxLqrcMkoe0"
+          "current_key": ///Enter value
         }
       ],
       "services": {
@@ -65,7 +65,7 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:721921639359:android:4bf9c198e1d9c7350f570a",
+        "mobilesdk_app_id": ///Enter value,
         "android_client_info": {
           "package_name": "com.mycompany.mslogin"
         }
@@ -73,7 +73,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCM3YW3xI2w-5a6AFEX9vU6TxLqrcMkoe0"
+          "current_key": ///Enter value
         }
       ],
       "services": {
