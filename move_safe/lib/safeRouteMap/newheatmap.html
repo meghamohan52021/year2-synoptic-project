@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Safety Heatmap</title>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvrFkh3fnG4qBoxK5RjsQEkiUQElsg6zg&libraries=visualization"></script>
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    #map {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+
+  <script>
+    function initMap() {
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 13,
+        center: { lat: -26.2034, lng: 28.0756 },
+        mapTypeId: "roadmap"
+      });
+
+      //hardcoded predictions to be replaced dynamically later
+      const heatmapData = [
+        { location: new google.maps.LatLng(-26.2034, 28.0756), weight: 0.87 },
+        { location: new google.maps.LatLng(-26.2030, 28.0490), weight: 0.55 },
+        { location: new google.maps.LatLng(-26.19363158774847, 28.059908181969888), weight: 0.94 },
+        { location: new google.maps.LatLng(-26.186406, 28.045896), weight: 0.94 },
+        { location: new google.maps.LatLng(-26.186664, 28.050036), weight: 0.44 },
+        { location: new google.maps.LatLng(-26.187362, 28.046839), weight: 0.40 },
+        { location: new google.maps.LatLng(-26.189629, 28.068092), weight: 0.57 },
+        { location: new google.maps.LatLng(-26.192989, 28.068985), weight: 0.40 },
+        { location: new google.maps.LatLng(-26.194654, 28.072833), weight: 0.45 },
+        { location: new google.maps.LatLng(-26.194376, 28.067611), weight: 0.67 }
+
+      ];
+
+
+      const heatmap = new google.maps.visualization.HeatmapLayer({
+        data: heatmapData,
+        radius: 100,
+        opacity: 0.7,
+        gradient: [
+          "rgba(0, 255, 0, 0)",
+          "rgba(0, 255, 0, 1)",
+          "rgba(255, 255, 0, 1)",
+          "rgba(255, 165, 0, 1)",
+          "rgba(255, 0, 0, 1)"
+        ]
+      });
+
+      heatmap.setMap(map);
+      
+      console.log(heatmapData);
+    }
+
+
+  </script>
+</head>
+
+<body onload="initMap()">
+  <div id="map"></div>
+</body>
+</html>

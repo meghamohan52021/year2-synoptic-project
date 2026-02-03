@@ -1,0 +1,60 @@
+name: move_safe
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.8.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  mask_text_input_formatter: ^2.9.0
+  http: ^1.2.0
+  google_maps_webservice2: ^1.0.5
+  firebase_core: ^3.13.1 # Get the latest version from pub.dev
+  firebase_auth: ^5.5.4
+  firebase_database: ^11.3.6 # Get the latest version from pub.dev
+  local_auth: ^2.1.7
+  flutter_secure_storage: ^9.2.4
+  url_launcher: ^6.0.9              
+  file_picker: ^10.1.2     
+  geolocator: ^10.0.0         
+
+  # map dependencies
+  dio: ^4.0.0
+  cupertino_icons: ^1.0.2
+  flutter_polyline_points: ^2.0.0
+  google_maps_flutter: ^2.5.0
+  google_maps_flutter_web: ^0.5.4
+  location: ^4.4.0
+  flutter_svg: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.4.4
+  build_runner: ^2.4.9
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: false
+  ios: true
+  image_path: "assets/MoveSafe_logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/MoveSafe_logo.png
+    - assets/icons/taxi_icon.png
+    - assets/icons/user_icon.png
+    - assets/icons/user2_icon.png
+    - assets/icons/user3_icon.png
+    - assets/icons/user4_icon.png
+    - assets/icons/user_bike_icon.png
+    - assets/icons/move_station_icon.png
+
+
