@@ -7,7 +7,7 @@ import 'package:move_safe/login/login_widget.dart';
 // SOS call function
 void main() => runApp(const HomePage());
 _phoneCall() async {
-  var url = Uri.parse("tel:+447572555705");
+  var url = Uri.parse("+441234567890");
   if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
     throw Exception('Could not launch $url');
   } 
